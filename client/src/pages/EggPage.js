@@ -43,12 +43,12 @@ const EggPage = () => {
     <h1 id="greeting">Hatch the egg!</h1>
     <section className="container-fluid d-flex justify-content-center">
       {/* <Link to="/dashboard"> */}
-      <a onClick={() => {window.location.pathname="/dashboard"}}>
+      <Link to ="/dashboard">
       <button onClick={AddMonster}
       className="eggBtn">
         <img src={egg} alt="Egg Pixel Art" className="eggImg"/>
       </button>
-      </a>
+      </Link>
       {/* </Link> */}
     </section>
     </div>
